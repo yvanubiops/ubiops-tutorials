@@ -17,7 +17,7 @@ jobs:
       # Version specific parameters
       ENVIRONMENT: python3-8
       # The path to your deployment package in your repository
-      DIR_PATH: ./twitter-sentiment-analysis/twitter-sentiment-analysis/sentimentanalysis_deployment_package
+      DIR_PATH: twitter-sentiment-analysis/twitter-sentiment-analysis/sentimentanalysis_deployment_package
 
     steps:
       - uses: actions/checkout@v2
